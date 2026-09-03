@@ -1,5 +1,6 @@
 {
-  "versionCode": 136,
-  "versionName": "1.0.136",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=136"
+  "versionCode": 137,
+  "versionName": "1.0.137",
+  "description": "- The update dialog now shows a short description of what's new in each version.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=137"
 }
