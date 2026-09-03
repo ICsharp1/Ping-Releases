@@ -1,6 +1,6 @@
 {
-  "versionCode": 141,
-  "versionName": "1.0.141",
-  "description": "- Completing a task from a notification now asks whether to finish only the current reminder or the whole task, when more reminders are still scheduled.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=141"
+  "versionCode": 142,
+  "versionName": "1.0.142",
+  "description": "- Removed the \u2713 complete button from task cards in the Upcoming tab.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=142"
 }
