@@ -1,6 +1,6 @@
 {
-  "versionCode": 146,
-  "versionName": "1.0.146",
-  "description": "- Fixed duplicate templates piling up (\"Quick Ping\" / \"Standard Followup\"): content-identical templates now auto-collapse to one everywhere, and deleting a template on the phone actually syncs the deletion (no more resurrection after reconnect).",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=146"
+  "versionCode": 147,
+  "versionName": "1.0.147",
+  "description": "- Fixed the reminder time wheel sometimes rejecting a valid future time (\"Time must be in the future\"): the wheel now registers the value actually centered on screen, and the picker never opens on an already-past minute.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=147"
 }
