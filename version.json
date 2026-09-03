@@ -1,6 +1,6 @@
 {
-  "versionCode": 142,
-  "versionName": "1.0.142",
-  "description": "- Removed the \u2713 complete button from task cards in the Upcoming tab.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=142"
+  "versionCode": 143,
+  "versionName": "1.0.143",
+  "description": "- Server deployment fix (no app changes).",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=143"
 }
