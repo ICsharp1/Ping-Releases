@@ -1,6 +1,6 @@
 {
-  "versionCode": 143,
-  "versionName": "1.0.143",
-  "description": "- Server deployment fix (no app changes).",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=143"
+  "versionCode": 146,
+  "versionName": "1.0.146",
+  "description": "- Fixed duplicate templates piling up (\"Quick Ping\" / \"Standard Followup\"): content-identical templates now auto-collapse to one everywhere, and deleting a template on the phone actually syncs the deletion (no more resurrection after reconnect).",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=146"
 }
