@@ -1,6 +1,6 @@
 {
-  "versionCode": 147,
-  "versionName": "1.0.147",
-  "description": "- Fixed the reminder time wheel sometimes rejecting a valid future time (\"Time must be in the future\"): the wheel now registers the value actually centered on screen, and the picker never opens on an already-past minute.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=147"
+  "versionCode": 149,
+  "versionName": "1.0.149",
+  "description": "- Fixed reminder notifications disappearing when the app updates: Android removes posted notifications on APK update, so shown-but-unresolved reminders are now persisted and re-posted automatically after an update or reboot \u2014 no more silently lost reminders.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=149"
 }
