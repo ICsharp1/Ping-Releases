@@ -1,6 +1,6 @@
 {
-  "versionCode": 151,
-  "versionName": "1.0.151",
-  "description": "- Recurring tasks no longer vanish from Upcoming: a repeating task now stays in Upcoming between cycles instead of being parked in Archive until its next reminder fires.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=151"
+  "versionCode": 153,
+  "versionName": "1.0.153",
+  "description": "- New: Priority window \u2014 tasks that fired an alert and are still unresolved open as a window the moment an alert fires and when you unlock the phone, so a swiped-away notification can no longer lose the alert. Done/Snooze straight from the window. Turn it off, or switch to high-priority-only, in Settings \u2192 Device \u2192 Priority window (needs \"Display over other apps\").",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=153"
 }
