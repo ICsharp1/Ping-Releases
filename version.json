@@ -1,6 +1,6 @@
 {
-  "versionCode": 150,
-  "versionName": "1.0.150",
-  "description": "- One notification per task: when a task has several reminders that fire, a later reminder replaces the earlier notification instead of stacking duplicates in the shade.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=150"
+  "versionCode": 151,
+  "versionName": "1.0.151",
+  "description": "- Recurring tasks no longer vanish from Upcoming: a repeating task now stays in Upcoming between cycles instead of being parked in Archive until its next reminder fires.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=151"
 }
