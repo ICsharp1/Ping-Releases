@@ -1,6 +1,6 @@
 {
-  "versionCode": 154,
-  "versionName": "1.0.154",
-  "description": "- Priority window now follows the app's settings styling (palette, panels, single accent action) instead of the older purple-heavy look.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=154"
+  "versionCode": 155,
+  "versionName": "1.0.155",
+  "description": "- Priority window: the keep-alive notification is now fully silent and never re-alerts, so it can't pop back into the shade every time the app opens or the phone reboots.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=155"
 }
