@@ -1,6 +1,6 @@
 {
-  "versionCode": 155,
-  "versionName": "1.0.155",
-  "description": "- Priority window: the keep-alive notification is now fully silent and never re-alerts, so it can't pop back into the shade every time the app opens or the phone reboots.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=155"
+  "versionCode": 156,
+  "versionName": "1.0.156",
+  "description": "- Recurring reminders now ask before completing: tapping Done shows \"Only this one\" (the repeating task keeps running) or \"End repeating task\" (finishes the whole series). One-off reminders behave exactly as before.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=156"
 }
