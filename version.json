@@ -1,6 +1,6 @@
 {
-  "versionCode": 156,
-  "versionName": "1.0.156",
-  "description": "- Recurring reminders now ask before completing: tapping Done shows \"Only this one\" (the repeating task keeps running) or \"End repeating task\" (finishes the whole series). One-off reminders behave exactly as before.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=156"
+  "versionCode": 158,
+  "versionName": "1.0.158",
+  "description": "- Quick snooze buttons now label themselves from their value \u2014 30m, 5h, 3d \u2014 so changing a button's timing updates its text automatically. Want your own wording? Turn on the new \"Custom button text\" switch in Settings \u2192 Quick Snooze Menu (off by default).",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=158"
 }
