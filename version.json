@@ -1,6 +1,6 @@
 {
-  "versionCode": 158,
-  "versionName": "1.0.158",
+  "versionCode": 159,
+  "versionName": "1.0.159",
   "description": "- Quick snooze buttons now label themselves from their value \u2014 30m, 5h, 3d \u2014 so changing a button's timing updates its text automatically. Want your own wording? Turn on the new \"Custom button text\" switch in Settings \u2192 Quick Snooze Menu (off by default).",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=158"
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=159"
 }
