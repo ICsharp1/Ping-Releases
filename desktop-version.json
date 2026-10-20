@@ -1,7 +1,7 @@
 {
-  "versionName": "1.0.160",
-  "versionCode": 160,
+  "versionName": "1.0.162",
+  "versionCode": 162,
   "downloadUrl": "https://github.com/ICsharp1/Ping-Releases/releases/download/desktop-latest/ping-desktop.msi",
-  "sha256": "3258167e464c7a4f52a2e9d468edbb1a8aa5b4501cd21e80c9e12537c6b5bb58",
-  "description": "- Ping for Windows can now install itself and update itself: when a new version is out, an Update button appears above Settings - one click downloads, installs and restarts Ping."
+  "sha256": "cb0e2f652adbf70355636816e5377102b7e38eec44c4f5f1d15519888a3962d3",
+  "description": "- Completing a repeating task from its card now offers \"Next cycle\" or \"End repeating task\". Before, \"Only this one\" quietly used up one of the queued reminders, so the task stayed in Upcoming with 3, then 2, then 1 reminders."
 }
