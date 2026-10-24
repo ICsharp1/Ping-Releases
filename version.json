@@ -1,6 +1,6 @@
 {
-  "versionCode": 163,
-  "versionName": "1.0.163",
-  "description": "- New SMS reminder: switch it on in a task's special features and Ping texts that task's notes (or its title when the notes are empty) to the number you choose, every time a reminder fires. Pick the number from your contacts or type it in.\n- Settings now has one \"Special task settings\" page holding soft notifications, the priority window, location triggers and the new SMS options \u2014 the default country code (a leading 0 is replaced, e.g. +972) and the Send SMS permission.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=163"
+  "versionCode": 164,
+  "versionName": "1.0.164",
+  "description": "- Reminders that were still sitting in the notification shade are now brought back after an app update: the restore runs before anything else when the package is replaced, and the app also re-posts any unresolved reminder that isn't currently showing when it is opened. Already-visible notifications are left alone, so nothing re-alerts.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=164"
 }
