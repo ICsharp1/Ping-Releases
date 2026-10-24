@@ -1,6 +1,6 @@
 {
-  "versionCode": 162,
-  "versionName": "1.0.162",
-  "description": "- Completing a recurring task now asks what you mean \u2014 \"Next cycle\" or \"End repeating task\" \u2014 both from the notification and from inside the app, instead of silently rolling the task forward.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=162"
+  "versionCode": 163,
+  "versionName": "1.0.163",
+  "description": "- New SMS reminder: switch it on in a task's special features and Ping texts that task's notes (or its title when the notes are empty) to the number you choose, every time a reminder fires. Pick the number from your contacts or type it in.\n- Settings now has one \"Special task settings\" page holding soft notifications, the priority window, location triggers and the new SMS options \u2014 the default country code (a leading 0 is replaced, e.g. +972) and the Send SMS permission.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=163"
 }
