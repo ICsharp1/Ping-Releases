@@ -1,6 +1,6 @@
 {
-  "versionCode": 164,
-  "versionName": "1.0.164",
-  "description": "- Reminders that were still sitting in the notification shade are now brought back after an app update: the restore runs before anything else when the package is replaced, and the app also re-posts any unresolved reminder that isn't currently showing when it is opened. Already-visible notifications are left alone, so nothing re-alerts.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=164"
+  "versionCode": 165,
+  "versionName": "1.0.165",
+  "description": "- A half-written task now survives leaving the app: Ping keeps a live draft of the New task screen (text, reminders, every special option) and brings it back when you return, even if Android killed the app in the meantime. The draft is cleared as soon as the task is created.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=165"
 }
