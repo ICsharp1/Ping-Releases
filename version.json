@@ -1,6 +1,6 @@
 {
-  "versionCode": 166,
-  "versionName": "1.0.166",
-  "description": "- Crashes no longer vanish: the app now logs every uncaught exception to Settings \u2192 Diagnostics, with the thread and full stack trace, so a failure that kills the app can actually be read and sent instead of leaving only a mystery.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=166"
+  "versionCode": 167,
+  "versionName": "1.0.167",
+  "description": "- Fixed the New task screen coming back filled with a task you already created: the draft snapshot could re-save itself a moment after the form was cleared, so the previous task's text and reminders reappeared the next time you opened the tab.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=167"
 }
