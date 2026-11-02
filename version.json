@@ -1,6 +1,6 @@
 {
-  "versionCode": 167,
-  "versionName": "1.0.167",
-  "description": "- Fixed the New task screen coming back filled with a task you already created: the draft snapshot could re-save itself a moment after the form was cleared, so the previous task's text and reminders reappeared the next time you opened the tab.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=167"
+  "versionCode": 170,
+  "versionName": "1.0.170",
+  "description": "- New WhatsApp reminder, the twin of the SMS one: switch it on in a task's special features, pick the number (contacts or typed), and Ping sends the task's notes (or its title) to that number over WhatsApp every time a reminder fires. It is available when creating and editing a task and is carried by cloud sync, desktop sync and backups.\n- Settings > Special task settings has a new \"WhatsApp reminders\" panel: link Ping to your WhatsApp account once (enter your number, then type the 8-character code Ping shows into WhatsApp > Linked devices > Link a device > Link with phone number instead), send yourself a test message, or unlink. It shares the default country code with the SMS panel.\n- WhatsApp does not officially allow third-party apps; a few messages to people you already talk to is low risk. Failed sends are skipped silently, like SMS. The WhatsApp login is excluded from Android backups.\n- The APK now includes the WhatsApp library for 64-bit ARM phones (about 16 MB larger).",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=170"
 }
