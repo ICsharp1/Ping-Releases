@@ -1,6 +1,6 @@
 {
-  "versionCode": 172,
-  "versionName": "1.0.172",
-  "description": "- Fixed WhatsApp reminders not arriving for contacts picked from your contact list: a number in local format (052-123-4567) was sent to WhatsApp without its country code, which only works for SMS. Ping now adds the country code itself, from the default country code in Settings or, if that is blank, from your SIM's country.\n- WhatsApp reminders are now sent by a short foreground service started by the alarm, with up to 3 attempts, instead of from inside the alarm receiver. This keeps the phone's network available while the message goes out. A brief \"Sending WhatsApp reminder\" notification shows while it runs.\n- Every WhatsApp send now leaves a trace in Settings > Diagnostics (who it was for, masked, whether it was sent, and the reason when it was not), so a message that did not arrive can be explained.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=172"
+  "versionCode": 173,
+  "versionName": "1.0.173",
+  "description": "- Fixed the app crashing when a reminder fired on a phone where location permission isn't granted: refreshing a task started the location tracking service just to tell it there was nothing to track, and Android killed the whole app because the service has no location permission. The crash also took any WhatsApp or SMS being sent at that moment with it, which is why a WhatsApp reminder could fire and then not arrive. The service is now only contacted when it is already running, and it stops quietly instead of crashing if it isn't allowed to run.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=173"
 }
