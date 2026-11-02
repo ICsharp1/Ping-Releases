@@ -1,6 +1,6 @@
 {
-  "versionCode": 170,
-  "versionName": "1.0.170",
-  "description": "- New WhatsApp reminder, the twin of the SMS one: switch it on in a task's special features, pick the number (contacts or typed), and Ping sends the task's notes (or its title) to that number over WhatsApp every time a reminder fires. It is available when creating and editing a task and is carried by cloud sync, desktop sync and backups.\n- Settings > Special task settings has a new \"WhatsApp reminders\" panel: link Ping to your WhatsApp account once (enter your number, then type the 8-character code Ping shows into WhatsApp > Linked devices > Link a device > Link with phone number instead), send yourself a test message, or unlink. It shares the default country code with the SMS panel.\n- WhatsApp does not officially allow third-party apps; a few messages to people you already talk to is low risk. Failed sends are skipped silently, like SMS. The WhatsApp login is excluded from Android backups.\n- The APK now includes the WhatsApp library for 64-bit ARM phones (about 16 MB larger).",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=170"
+  "versionCode": 171,
+  "versionName": "1.0.171",
+  "description": "- The SMS and WhatsApp reminder options on the New and Edit task screens are now one \"Messaging\" section: tap WhatsApp or SMS to pick a contact (or use \"Type a number instead\"), and the contact appears as a tag you can tap to change or remove with its x. A task can have one contact per channel, and each channel with a contact gets the message when a reminder fires. No more on/off switches. An Email button is there as a preview and does nothing yet.\n- Adding an SMS contact asks for the Send SMS permission right away, and a WhatsApp contact shows a \"Link now\" shortcut while WhatsApp isn't linked.\n- The New task form now clears its messaging contacts after a task is created, so the next task can't message the previous person by accident.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=171"
 }
