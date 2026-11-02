@@ -1,7 +1,7 @@
 {
-  "versionName": "1.0.163",
-  "versionCode": 163,
+  "versionName": "1.0.170",
+  "versionCode": 170,
   "downloadUrl": "https://github.com/ICsharp1/Ping-Releases/releases/download/desktop-latest/ping-desktop.msi",
-  "sha256": "1d00a50c69029ce61e8bd07ad502216bcbe95594967162ec1255cda2308280a0",
+  "sha256": "c307ba87aaa07ff1083269b6aa409d7272c3ebb330ce96c3aa41cf6cd53ffb96",
   "description": "- Completing a repeating task from its card now offers \"Next cycle\" or \"End repeating task\". Before, \"Only this one\" quietly used up one of the queued reminders, so the task stayed in Upcoming with 3, then 2, then 1 reminders."
 }
