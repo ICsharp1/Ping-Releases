@@ -1,6 +1,6 @@
 {
-  "versionCode": 174,
-  "versionName": "1.0.174",
-  "description": "- New email reminder, the third channel in the Messaging section: tap Email to pick a contact's address (or use \"Type a number or address instead\"), and it shows as a tag you can tap to change or remove with its x. When a reminder fires, the task's notes (or its title) are emailed there with the task title as the subject, together with any WhatsApp or SMS contacts on the same task.\n- Email is sent from your own mailbox over SMTP: set it up once in Settings > Special task settings > Email reminders (or from the \"Set up\" shortcut under the tag). Gmail needs an app password; the setup window explains the steps and checks the sign-in before saving. The password stays on the phone and is excluded from Android backups. There is also a \"Send a test email to myself\" button, and every send is traced in Settings > Diagnostics (tag Email).\n- The email address is carried by cloud sync, desktop sync and backups, like the SMS and WhatsApp contacts.\n- WhatsApp and email now share one short \"Sending reminder\" service.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=174"
+  "versionCode": 175,
+  "versionName": "1.0.175",
+  "description": "- Email reminders can now use \"Sign in with Google\" instead of an app password: pick your Google account and approve once, and Ping sends through the Gmail API. No password is typed or stored, and Ping is only allowed to send email, never to read it. Other providers still use an app password. This needs the Gmail API enabled and the gmail.send permission added in the Google Cloud project that Ping's sign-in uses.\n- Settings > Diagnostics: the error log now shows the newest entries first, with new Copy and Share buttons next to Clear, and it no longer grows without limit (the oldest entries are dropped past 256 KB).\n- Email send failures now say why in Diagnostics (for example Google's own message when the Gmail API is not enabled).",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=175"
 }
