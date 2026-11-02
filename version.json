@@ -1,6 +1,6 @@
 {
-  "versionCode": 171,
-  "versionName": "1.0.171",
-  "description": "- The SMS and WhatsApp reminder options on the New and Edit task screens are now one \"Messaging\" section: tap WhatsApp or SMS to pick a contact (or use \"Type a number instead\"), and the contact appears as a tag you can tap to change or remove with its x. A task can have one contact per channel, and each channel with a contact gets the message when a reminder fires. No more on/off switches. An Email button is there as a preview and does nothing yet.\n- Adding an SMS contact asks for the Send SMS permission right away, and a WhatsApp contact shows a \"Link now\" shortcut while WhatsApp isn't linked.\n- The New task form now clears its messaging contacts after a task is created, so the next task can't message the previous person by accident.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=171"
+  "versionCode": 172,
+  "versionName": "1.0.172",
+  "description": "- Fixed WhatsApp reminders not arriving for contacts picked from your contact list: a number in local format (052-123-4567) was sent to WhatsApp without its country code, which only works for SMS. Ping now adds the country code itself, from the default country code in Settings or, if that is blank, from your SIM's country.\n- WhatsApp reminders are now sent by a short foreground service started by the alarm, with up to 3 attempts, instead of from inside the alarm receiver. This keeps the phone's network available while the message goes out. A brief \"Sending WhatsApp reminder\" notification shows while it runs.\n- Every WhatsApp send now leaves a trace in Settings > Diagnostics (who it was for, masked, whether it was sent, and the reason when it was not), so a message that did not arrive can be explained.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=172"
 }
