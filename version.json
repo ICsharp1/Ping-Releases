@@ -1,6 +1,6 @@
 {
-  "versionCode": 175,
-  "versionName": "1.0.175",
-  "description": "- Email reminders can now use \"Sign in with Google\" instead of an app password: pick your Google account and approve once, and Ping sends through the Gmail API. No password is typed or stored, and Ping is only allowed to send email, never to read it. Other providers still use an app password. This needs the Gmail API enabled and the gmail.send permission added in the Google Cloud project that Ping's sign-in uses.\n- Settings > Diagnostics: the error log now shows the newest entries first, with new Copy and Share buttons next to Clear, and it no longer grows without limit (the oldest entries are dropped past 256 KB).\n- Email send failures now say why in Diagnostics (for example Google's own message when the Gmail API is not enabled).",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=175"
+  "versionCode": 176,
+  "versionName": "1.0.176",
+  "description": "- Fixed WhatsApp reminders being delivered up to 3 times. When WhatsApp's confirmation was slow (typically right after the phone wakes up), Ping treated the send as failed and retried while the first message had in fact gone out. Ping now only retries when the message cannot have been sent (no connection yet); if a send gets no confirmation it is left alone and Settings > Diagnostics says so. A background attempt that was given up on can no longer send later either.\n- The same safeguard for email, and a final guard for both: the same message to the same person is never sent twice within 20 seconds, whatever caused the repeat.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=176"
 }
