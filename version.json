@@ -1,6 +1,6 @@
 {
-  "versionCode": 176,
-  "versionName": "1.0.176",
-  "description": "- Fixed WhatsApp reminders being delivered up to 3 times. When WhatsApp's confirmation was slow (typically right after the phone wakes up), Ping treated the send as failed and retried while the first message had in fact gone out. Ping now only retries when the message cannot have been sent (no connection yet); if a send gets no confirmation it is left alone and Settings > Diagnostics says so. A background attempt that was given up on can no longer send later either.\n- The same safeguard for email, and a final guard for both: the same message to the same person is never sent twice within 20 seconds, whatever caused the repeat.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=176"
+  "versionCode": 177,
+  "versionName": "1.0.177",
+  "description": "- Removed the unused desktop app, installer pipeline, and desktop build dependencies.\n- Fixed email reminders retrying after a connection reset or lost response even though the message may already have arrived.\n- Clearing the New task form now removes its saved draft, so erased text no longer returns after restarting the app.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=177"
 }
