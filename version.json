@@ -1,6 +1,6 @@
 {
-  "versionCode": 177,
-  "versionName": "1.0.177",
-  "description": "- Removed the unused desktop app, installer pipeline, and desktop build dependencies.\n- Fixed email reminders retrying after a connection reset or lost response even though the message may already have arrived.\n- Clearing the New task form now removes its saved draft, so erased text no longer returns after restarting the app.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=177"
+  "versionCode": 178,
+  "versionName": "1.0.178",
+  "description": "- Fixed Wi-Fi reminders: required permissions are requested, network names match correctly, and reminders also work when the phone is already connected to the selected network.\n- Wi-Fi and location monitoring no longer stops after 10 minutes. Monitoring recovers after the app restarts or permissions are granted.\n- Recurring location reminders stay active and rearm after leaving the selected area. Repeated callbacks and pending delayed alerts no longer create duplicate notifications.\n- Fixed a crash when combining a location or Wi-Fi trigger with the ordinary repeat-task option.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=178"
 }
