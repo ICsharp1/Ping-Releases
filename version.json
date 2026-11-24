@@ -1,6 +1,6 @@
 {
-  "versionCode": 186,
-  "versionName": "1.0.186",
-  "description": "- Removed the Reminders heading and No reminders set text from the New task page.\n- Reliability groups Android permission controls and statuses in one place, while features still request permissions when needed.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=186"
+  "versionCode": 188,
+  "versionName": "1.0.188",
+  "description": "- Location monitoring updates only added, changed or removed geofences, preserving registrations during unrelated task edits.\n- Failed location and Wi-Fi alarm handoffs no longer consume the arrival; future queued reminders recover when reopening Ping or restoring exact-alarm access.\n- Duplicate or cancelled alarm callbacks no longer show another notification.\n- Location requests expire at the provider after 30 seconds, and inactive tasks stop being tracked promptly.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=188"
 }
