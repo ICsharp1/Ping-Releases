@@ -1,6 +1,6 @@
 {
-  "versionCode": 182,
-  "versionName": "1.0.182",
-  "description": "- Removed the map from location selection. Choose a place using search or your current location, then set the reminder radius.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=182"
+  "versionCode": 184,
+  "versionName": "1.0.184",
+  "description": "- Added more space between the task form and the Create task button, including the Location Trigger section.\n- Location selection uses search without a map or radius buttons. The default radius is 150 metres and can be changed in Settings \u2192 Special task settings \u2192 Location reminders.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=184"
 }
