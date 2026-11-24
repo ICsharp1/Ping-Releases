@@ -1,6 +1,6 @@
 {
-  "versionCode": 179,
-  "versionName": "1.0.179",
-  "description": "- Fixed Wi-Fi reminders: required permissions are requested, network names match correctly, and reminders also work when the phone is already connected to the selected network.\n- Wi-Fi and location monitoring no longer stops after 10 minutes. Monitoring recovers after the app restarts or permissions are granted.\n- Recurring location reminders stay active and rearm after leaving the selected area. Repeated callbacks and pending delayed alerts no longer create duplicate notifications.\n- Fixed a crash when combining a location or Wi-Fi trigger with the ordinary repeat-task option.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=179"
+  "versionCode": 181,
+  "versionName": "1.0.181",
+  "description": "- Location search now shows separate, clearly divided result rows with a short place name and a smaller address line.\n- Search results stay below the search field, with loading and empty states, instead of covering the page with long address text.\n- New and Edit use the same location picker, and selecting a place closes the keyboard.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=181"
 }
