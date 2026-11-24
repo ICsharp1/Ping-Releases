@@ -1,6 +1,6 @@
 {
-  "versionCode": 184,
-  "versionName": "1.0.184",
-  "description": "- Added more space between the task form and the Create task button, including the Location Trigger section.\n- Location selection uses search without a map or radius buttons. The default radius is 150 metres and can be changed in Settings \u2192 Special task settings \u2192 Location reminders.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=184"
+  "versionCode": 186,
+  "versionName": "1.0.186",
+  "description": "- Removed the Reminders heading and No reminders set text from the New task page.\n- Reliability groups Android permission controls and statuses in one place, while features still request permissions when needed.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=186"
 }
