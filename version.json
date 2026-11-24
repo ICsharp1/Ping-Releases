@@ -1,6 +1,6 @@
 {
-  "versionCode": 188,
-  "versionName": "1.0.188",
-  "description": "- Location monitoring updates only added, changed or removed geofences, preserving registrations during unrelated task edits.\n- Failed location and Wi-Fi alarm handoffs no longer consume the arrival; future queued reminders recover when reopening Ping or restoring exact-alarm access.\n- Duplicate or cancelled alarm callbacks no longer show another notification.\n- Location requests expire at the provider after 30 seconds, and inactive tasks stop being tracked promptly.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=188"
+  "versionCode": 189,
+  "versionName": "1.0.189",
+  "description": "- Recurring location reminders stop precise location checks once an arrival is queued, including delayed alerts.\n- Another visit becomes eligible after Android reports departure from the outer area (the reminder radius plus 300 metres).\n- Restarting monitoring or receiving duplicate entry events preserves this waiting state without restarting GPS for that reminder.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=189"
 }
