@@ -1,6 +1,6 @@
 {
-  "versionCode": 181,
-  "versionName": "1.0.181",
-  "description": "- Location search now shows separate, clearly divided result rows with a short place name and a smaller address line.\n- Search results stay below the search field, with loading and empty states, instead of covering the page with long address text.\n- New and Edit use the same location picker, and selecting a place closes the keyboard.",
-  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=181"
+  "versionCode": 182,
+  "versionName": "1.0.182",
+  "description": "- Removed the map from location selection. Choose a place using search or your current location, then set the reminder radius.",
+  "downloadUrl": "https://raw.githubusercontent.com/ICsharp1/Ping-Releases/main/app-debug.apk?v=182"
 }
